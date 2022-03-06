@@ -17,7 +17,7 @@ This repo contains the backend code for an Order Management System. This applica
 
 <br />
 <p align="center">
-    <img src="https://i.imgur.com/ncAgLlc.png" alt="Logo" width="550" height="400" >
+    <img src="https://i.imgur.com/ncAgLlc.png" alt="Logo" width="700" height="350" >
 </p>
 
 # Steps for installation
