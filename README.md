@@ -5,7 +5,7 @@ This repo contains the backend code for an Order Management System. This applica
 
 # Table of Contents
 
-1. [High Level Design](#high-level-design)
+1. [High Level Diagram](#high-level-design)
 1. [Steps for Installation](#installation)
 2. [Technology Stack](#technology-stack)
 3. [Authors](#authors)
@@ -13,11 +13,11 @@ This repo contains the backend code for an Order Management System. This applica
 
 <br/>
 
-# High Level Design
+# High Level Diagram
 
 <br />
 <p align="center">
-    <img src="https://i.imgur.com/XccLpCb.png" alt="Logo" width="550" height="400" >
+    <img src="https://i.imgur.com/ncAgLlc.png" alt="Logo" width="550" height="400" >
 </p>
 
 # Steps for installation
