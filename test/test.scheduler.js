@@ -14,6 +14,7 @@ describe("Update data schedule time", () => {
         .get('/api/schedule')
         .end((err, res) => {
             res.should.have.status(200);
+            res.body.should.be.a('object');
         done();
         })
     });
