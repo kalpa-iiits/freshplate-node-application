@@ -4,8 +4,9 @@
   "description": "Node.js Restful CRUD API with Node.js, Express and MongoDB",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "mocha --timeout 10000",
+    "start": "nodemon server.js",
+    "db": "mongodb+srv://kalpa_nest:S9IhSWrMIef9mJNe@cluster0.3p2gv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
   },
   "keywords": [
     "nodejs",
@@ -25,7 +26,13 @@
     "express": "^4.17.1",
     "mongoose": "^5.8.10",
     "node-fetch": "^3.2.1",
-    "node-schedule": "^2.1.0",
-    "nodemon": "^2.0.15"
+    "node-schedule": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.2.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
   }
 }

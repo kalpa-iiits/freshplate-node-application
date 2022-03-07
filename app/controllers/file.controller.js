@@ -15,7 +15,6 @@ function getRemoteFile(file, url) {
   
     writeStream.on("finish", () => {
       writeStream.close();
-      console.log("Download Completed");
     });
   });
 }
