@@ -56,7 +56,7 @@ I tried to use a completely modern tech stack while testing out some new technol
 - [Express JS](https://expressjs.com/)
 - [Mongo DB](https://mongodb.com/)
 
-For Deployment and CI/CD, we have used the following technologies:
+For Deployment, we have used the following technologies:
 
 - [Git](https://git-scm.com/)
 - [Github](https://github.com/)
