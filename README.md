@@ -31,11 +31,17 @@ This repo contains the backend code for an Order Management System. This applica
     ```
     npm install 
     ```
-3. Run the server
+3. Add a .env file in the root folder and add the follwing data
+    ```
+    AWS_ACCESS_KEY_ID=<aws-access-ket-id>
+    AWS_SECRET_ACCESS_KEY=<aws-secret-access-key>
+    AWS_BUCKET_NAME=<aws-bucket-name>
+    ```
+4. Run the server
    ```
    npm start
    ```
-4. To test the application, run
+5. To test the application, run
     ```
    npm test
    ```
